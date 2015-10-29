@@ -9,7 +9,7 @@ from .provider import CorrectivProvider
 class CorrectivOAuth2Adapter(OAuth2Adapter):
     provider_id = CorrectivProvider.id
     access_token_url = 'https://correctiv.org/account/token/'
-    authorize_url = 'https://correctiv.org/account/authorize'
+    authorize_url = 'https://correctiv.org/account/authorize/'
     profile_url = 'https://correctiv.org/api/user/'
 
     def complete_login(self, request, app, token, **kwargs):
