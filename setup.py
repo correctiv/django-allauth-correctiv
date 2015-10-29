@@ -8,7 +8,7 @@ long_description = io.open('README.md', encoding='utf-8').read()
 
 METADATA = dict(
     name='django-allauth-correctiv',
-    version='0.0.1',
+    version='0.0.2',
     author='Stefan Wehrmeyer',
     author_email='stefan.wehrmeyer@correctiv.org',
     description='Django applications addressing'
